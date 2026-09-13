@@ -2,500 +2,262 @@
 
 # DevCraftKit
 
-### Thoughtfully Crafted Developer Tools
+### Free, fast, privacy-friendly developer tools that run directly in your browser
 
-**Privacy-first developer, DevOps, networking, security, and text utilities that run entirely in your browser.**
+A growing collection of online developer tools, DevOps utilities, security tools, networking tools, JSON tools, and encoding tools — built for developers, DevOps engineers, security professionals, network engineers, and technical teams.
 
-No uploads • No accounts • No server-side processing • Free to use
+No uploads · No accounts · No tracking · Free to use
 
-🌐 **Website:** https://www.devcraftkit.com
-
-🛡️ **Log Sanitizer:** https://www.devcraftkit.com/tools/log-sanitizer
-
-⭐ If you find DevCraftKit useful, consider starring this repository to help more developers discover it.
+**[🌐 Visit DevCraftKit](https://www.devcraftkit.com/)** &nbsp;·&nbsp; **[🧰 Browse All Tools](https://www.devcraftkit.com/tools)**
 
 </div>
 
 ---
 
-# About
+## What is DevCraftKit?
 
-Developers spend countless hours switching between different websites just to complete small everyday tasks.
+[DevCraftKit](https://www.devcraftkit.com/) is a free collection of **online developer tools and utilities** covering security, DevOps, networking, JSON & data, encoding, and everyday development tasks. Every tool is designed to run **directly in your browser** — there's no server-side processing to wait on, no account to create, and nothing you paste gets uploaded.
 
-One site for formatting JSON.
+DevCraftKit is built around a simple idea: developers shouldn't need a dozen different bookmarked websites — each with its own interface and its own data-handling practices — just to format some JSON, calculate a subnet, or scrub secrets out of a log file before sharing it. DevCraftKit brings practical, single-purpose utilities together in one consistent, **privacy-friendly** toolkit.
 
-Another for decoding JWTs.
-
-Another for subnet calculations.
-
-Another for encoding text.
-
-Another for sanitizing logs.
-
-Each has a different interface, different privacy policy, different limitations, and different expectations about your data.
-
-**DevCraftKit** exists to replace that scattered collection of bookmarks with one consistent, privacy-first toolkit designed specifically for developers.
-
-Whether you're writing code, debugging production systems, configuring infrastructure, analyzing logs, troubleshooting networking issues, or sharing diagnostics with teammates, DevCraftKit provides browser-based utilities that are fast, simple, and trustworthy.
+- 🌐 **Browser-based** — tools run using your browser's JavaScript engine
+- 🔒 **Privacy-friendly** — designed to process data locally wherever applicable
+- 🆓 **Free to use** — no account, sign-up, or usage limits
+- ⚡ **Fast** — no server round-trip for most tools
+- 📈 **Continually expanding** — new developer utilities are added regularly
 
 ---
 
-# Visit DevCraftKit
+## Tool Categories
 
-## 🌍 Website
+DevCraftKit organizes its tools into six main categories. The site currently presents around **30 tools**, a mix of tools that are live today and tools that are planned and coming soon.
 
-https://www.devcraftkit.com
+### 🔐 Security Tools
+Security utilities for redacting, decoding, and generating the things that keep systems safe — including log sanitization, HTTP security header analysis, JWT tools, secret scanning, password generation, and hash generation.
+👉 [View Security Tools](https://www.devcraftkit.com/categories/security)
 
-Browse the growing collection of developer utilities built for everyday workflows.
+### ⚙️ DevOps Tools
+Validators and testers for the configuration behind every deploy — regex testing, cron expression building, Docker Compose validation, Kubernetes YAML validation, and Nginx config validation.
+👉 [View DevOps Tools](https://www.devcraftkit.com/categories/devops)
 
----
+### 🧩 JSON & Data Tools
+Tools for formatting, comparing, and converting structured data — JSON formatting and validation, JSON diffing, YAML-to-JSON conversion, and XML formatting.
+👉 [View JSON & Data Tools](https://www.devcraftkit.com/categories/json)
 
-## 🛡️ Featured Tool — Log Sanitizer
+### 🌐 Networking Tools
+Tools for looking up, calculating, and parsing network-facing data — CIDR calculation, DNS lookup, IP calculation, WHOIS lookup, subnet mask conversion, port lookups, and User-Agent parsing.
+👉 [View Networking Tools](https://www.devcraftkit.com/categories/network)
 
-https://www.devcraftkit.com/tools/log-sanitizer
+### 🔤 Encoding Tools
+Tools for converting text between the formats systems actually speak — Base64 encoding, URL encoding, and HTML entity encoding.
+👉 [View Encoding Tools](https://www.devcraftkit.com/categories/encoding)
 
-Paste application logs, server logs, API responses, security logs, or upload log files and automatically detect and mask sensitive information before sharing them with:
-
-- AI assistants
-- GitHub Issues
-- Slack
-- Discord
-- Jira
-- Support tickets
-- Documentation
-- Public forums
-- Email
-
-Everything happens entirely inside your browser.
-
----
-
-# Why DevCraftKit?
-
-The internet already has thousands of developer utilities.
-
-Most solve one problem.
-
-Many upload your data.
-
-Many have inconsistent interfaces.
-
-Many contain unnecessary distractions.
-
-DevCraftKit follows a different philosophy.
-
-Every tool should be:
-
-- Fast
-- Privacy-first
-- Easy to use
-- Consistent
-- Reliable
-- Focused on solving one task well
-
-Instead of collecting random utilities, DevCraftKit aims to become the toolkit developers naturally keep open every day.
+### 🛠️ Utilities
+Small, focused helpers for everyday development tasks — UUID generation, Unix timestamp conversion, Lorem Ipsum generation, and slug generation.
+👉 [View Utilities](https://www.devcraftkit.com/categories/utilities)
 
 ---
 
-# Privacy First
+## ✅ Available Tools
 
-Privacy is not an afterthought.
+These tools are **live today** on DevCraftKit:
 
-It is the foundation of DevCraftKit.
+| Tool | Category | Description |
+|---|---|---|
+| [**Log Sanitizer**](https://www.devcraftkit.com/tools/log-sanitizer) | Security | Masks secrets, tokens, credentials, and PII in logs before you share them — entirely in your browser. |
+| [**HTTP Security Headers Analyzer**](https://www.devcraftkit.com/tools/http-security-headers-analyzer) | Security | Analyzes HTTP response headers for missing protections, CSP weaknesses, CORS risks, and cookie flag issues. |
+| [**JSON Formatter**](https://www.devcraftkit.com/tools/json-formatter) | JSON & Data | Formats, validates, beautifies, minifies, and explores JSON instantly, with a tree view and JSON Path finder. |
+| [**CIDR Calculator**](https://www.devcraftkit.com/tools/cidr-calculator) | Networking | Calculates subnet information from an IPv4 CIDR block — network address, broadcast address, subnet mask, wildcard mask, and usable host range. |
 
-Whenever technically possible, tools execute completely inside your browser.
+### Log Sanitizer
 
-That means:
+Paste application logs, API responses, or upload a log file, and Log Sanitizer automatically detects and masks sensitive information — secrets, API keys, tokens, credentials, and PII — before you share it with an AI assistant, a GitHub issue, Slack, Jira, or a support ticket. Detection runs locally in your browser, so the raw log never has to leave the tab.
 
-✅ No uploads
+👉 [Open Log Sanitizer](https://www.devcraftkit.com/tools/log-sanitizer)
 
-✅ No accounts
+### HTTP Security Headers Analyzer
 
-✅ No server-side processing
+Paste a set of HTTP response headers and get a security-configuration analysis covering missing protections, Content-Security-Policy weaknesses, CORS misconfigurations, and cookie security flags — plus a score and recommendations. It works entirely from the headers you paste in; it doesn't fetch or crawl a URL, and nothing is uploaded.
 
-✅ No waiting for remote computation
+👉 [Open HTTP Security Headers Analyzer](https://www.devcraftkit.com/tools/http-security-headers-analyzer)
 
-✅ No sensitive information leaving your device
+### JSON Formatter
 
-Your browser performs the work.
+A browser-based **JSON formatter, validator, and beautifier**. Format, minify, and validate JSON instantly, with a tree view, a JSON Path finder, duplicate-key detection, and clear error messages that point to the exact line and column of a problem — all without uploading your JSON anywhere.
 
-Your data stays with you.
+👉 [Open JSON Formatter](https://www.devcraftkit.com/tools/json-formatter)
+
+### CIDR Calculator
+
+A free **IPv4 subnet calculator**. Enter an address in CIDR notation and instantly get the network address, broadcast address, subnet mask, wildcard mask, usable host range, total address count, and binary representation — along with a full CIDR cheat sheet from /0 to /32.
+
+👉 [Open CIDR Calculator](https://www.devcraftkit.com/tools/cidr-calculator)
 
 ---
 
-# Built For
+## 🚧 Coming Soon
 
-DevCraftKit is designed for anyone working with software and infrastructure.
+DevCraftKit is actively expanding. The following tools are **planned and not yet available** — they're listed here for transparency, not as live tools:
 
-Including:
+**Security:** Secret Scanner · JWT Decoder · JWT Generator · Password Generator · Hash Generator · SSL Certificate Viewer
 
-- Software Developers
-- Backend Engineers
-- Frontend Developers
-- Full Stack Developers
-- DevOps Engineers
-- Linux Administrators
-- Cloud Engineers
-- Platform Engineers
-- Site Reliability Engineers
-- QA Engineers
-- Security Engineers
-- Penetration Testers
-- Network Engineers
-- System Administrators
+**DevOps:** Regex Tester · Cron Builder · Docker Compose Validator · Kubernetes YAML Validator · Nginx Config Validator
+
+**JSON & Data:** JSON Diff · YAML to JSON · XML Formatter
+
+**Networking:** DNS Lookup · IP Calculator · WHOIS Lookup · Subnet Mask Calculator · Port Checker · User Agent Parser
+
+**Encoding:** Base64 Encoder · URL Encoder · HTML Encoder
+
+**Utilities:** UUID Generator · Unix Timestamp Converter · Lorem Ipsum Generator · Slug Generator
+
+See the full, current status of every tool on the [All Tools](https://www.devcraftkit.com/tools) page.
+
+---
+
+## 🔒 Privacy First
+
+**Your data stays in your browser.**
+
+Privacy is a core part of how DevCraftKit's tools are built, not an afterthought. Tools are designed to process data locally in your browser wherever applicable, so pasted text, uploaded files, and generated values don't need to be sent to a server for the tool to work.
+
+This matters most for the kind of data developers handle every day:
+
+- **Logs** that may contain internal hostnames, stack traces, or request data
+- **Tokens and credentials** like API keys, JWTs, and session cookies
+- **JSON payloads** from internal APIs or configuration
+- **Configuration files** that may reference internal infrastructure
+- **Security-sensitive data** such as HTTP headers or connection strings
+
+Because processing happens on your device, there's no upload step where that data could be intercepted or logged before you've had a chance to review or sanitize it.
+
+👉 Read the full [Privacy Policy](https://www.devcraftkit.com/privacy)
+
+---
+
+## Why DevCraftKit?
+
+- **Free to use** — every tool, no paywalls
+- **No account required** — open a tool and start using it
+- **Browser-based** — nothing to install
+- **Privacy-friendly** — designed for local, client-side processing
+- **Fast** — no waiting on server round-trips
+- **Practical** — focused on real, everyday developer tasks
+- **Developer-focused** — built by someone who uses these tools daily
+- **Continuously expanding** — new tools added regularly across multiple categories
+
+---
+
+## Popular Developer Tool Searches
+
+**Need to sanitize logs before sharing them?**
+Use the [DevCraftKit Log Sanitizer](https://www.devcraftkit.com/tools/log-sanitizer) to mask secrets, tokens, and PII in logs.
+
+**Need to format or validate JSON?**
+Use the [DevCraftKit JSON Formatter](https://www.devcraftkit.com/tools/json-formatter) — a free online JSON formatter, validator, and beautifier.
+
+**Need to calculate a subnet or CIDR range?**
+Use the [DevCraftKit CIDR Calculator](https://www.devcraftkit.com/tools/cidr-calculator), a free subnet calculator for IPv4 addresses.
+
+**Need to check your site's security headers?**
+Use the [HTTP Security Headers Analyzer](https://www.devcraftkit.com/tools/http-security-headers-analyzer) to check for missing protections and CSP or CORS issues.
+
+**Need developer utilities without installing anything?**
+Explore [DevCraftKit's browser-based tools](https://www.devcraftkit.com/tools) — free, online, and no sign-up required.
+
+**Need security tools for everyday workflows?**
+Explore the [Security category](https://www.devcraftkit.com/categories/security).
+
+**Need networking or DevOps utilities?**
+Explore the [Networking](https://www.devcraftkit.com/categories/network) and [DevOps](https://www.devcraftkit.com/categories/devops) categories.
+
+---
+
+## Learning Center
+
+DevCraftKit's [Blog / Learning Center](https://www.devcraftkit.com/blog) publishes practical guides on networking, security, and logging — including topics like CORS, HTTP security headers (HSTS, Content-Security-Policy), and other everyday security and web concepts developers run into.
+
+👉 [Visit the Learning Center](https://www.devcraftkit.com/blog)
+
+---
+
+## Frequently Asked Questions
+
+**What is DevCraftKit?**
+DevCraftKit is a free collection of online developer tools covering security, DevOps, networking, JSON, encoding, and everyday utilities. Tools run in your browser, so results are instant and nothing you enter is uploaded.
+
+**Is DevCraftKit free?**
+Yes. Every tool is free to use, with no account, sign-up, or usage limit.
+
+**Are DevCraftKit tools online?**
+Yes. All tools are accessed directly at [devcraftkit.com](https://www.devcraftkit.com/) through your web browser — no installation required.
+
+**Do I need an account?**
+No. No account or sign-up is required for any tool.
+
+**Is DevCraftKit privacy-friendly?**
+Yes. Most tools process everything locally in your browser, so pasted text, files, and generated values are never uploaded to a server. See the [Privacy Policy](https://www.devcraftkit.com/privacy) for full details.
+
+**What developer tools are available right now?**
+Log Sanitizer, HTTP Security Headers Analyzer, JSON Formatter, and CIDR Calculator are live today. See [Available Tools](#-available-tools) above.
+
+**Does DevCraftKit have security tools?**
+Yes. The Security category includes the live Log Sanitizer and HTTP Security Headers Analyzer, with a Secret Scanner, JWT tools, Password Generator, Hash Generator, and SSL Certificate Viewer planned.
+
+**Does DevCraftKit have networking tools?**
+Yes. The CIDR Calculator is live, with DNS Lookup, IP Calculator, WHOIS Lookup, Subnet Mask Calculator, Port Checker, and User Agent Parser planned.
+
+**Can I use DevCraftKit for DevOps tasks?**
+DevCraftKit's DevOps category is planned, covering a Regex Tester, Cron Builder, Docker Compose Validator, Kubernetes YAML Validator, and Nginx Config Validator.
+
+**Are more tools being added?**
+Yes. DevCraftKit currently presents about 30 tools across its six categories, with new tools added regularly. See the [All Tools](https://www.devcraftkit.com/tools) page for current status.
+
+---
+
+## Who is DevCraftKit for?
+
+- Software developers
+- Web developers (frontend and backend)
+- DevOps engineers and SREs
+- Security engineers and cybersecurity researchers
+- Network engineers
+- System administrators
 - Students learning development
-- Technical Support Teams
+- Technical teams that share logs, configs, and diagnostics day to day
 
 ---
 
-# Current Tools
+## Philosophy
 
-## 🛡️ Log Sanitizer
-
-https://www.devcraftkit.com/tools/log-sanitizer
-
-Safely sanitize logs before sharing them.
-
-Automatically detects and masks sensitive information while preserving everything necessary for debugging.
-
-Supports:
-
-- Application logs
-- API logs
-- Stack traces
-- JSON logs
-- Windows Event Logs
-- Syslog
-- Apache logs
-- Nginx logs
-- CEF
-- LEEF
-- Plain text
-- Uploaded .log files
-- Uploaded .txt files
-- Uploaded .json files
+DevCraftKit isn't trying to be an all-in-one platform. It's built around small, focused tools for real developer tasks — each one designed to do a single job well, run quickly, and respect the data you give it. The guiding principles are simplicity, speed, privacy, accessibility, and fitting naturally into everyday developer workflows.
 
 ---
 
-## 🌐 CIDR Calculator
+## Links
 
-https://www.devcraftkit.com
-
-Quickly calculate:
-
-- Network Address
-- Broadcast Address
-- CIDR Range
-- Subnet Mask
-- Wildcard Mask
-- Total Hosts
-- Usable Hosts
-- Binary Representation
-
-Perfect for networking, cloud, DevOps, and infrastructure work.
+- 🌐 [DevCraftKit Website](https://www.devcraftkit.com/)
+- 🧰 [All Tools](https://www.devcraftkit.com/tools)
+- 📂 [Categories](https://www.devcraftkit.com/categories)
+- 🔐 [Security Tools](https://www.devcraftkit.com/categories/security)
+- ⚙️ [DevOps Tools](https://www.devcraftkit.com/categories/devops)
+- 🌐 [Networking Tools](https://www.devcraftkit.com/categories/network)
+- 🧩 [JSON & Data Tools](https://www.devcraftkit.com/categories/json)
+- 🔤 [Encoding Tools](https://www.devcraftkit.com/categories/encoding)
+- 📚 [Learning Center / Blog](https://www.devcraftkit.com/blog)
+- ℹ️ [About](https://www.devcraftkit.com/about)
+- 🔒 [Privacy Policy](https://www.devcraftkit.com/privacy)
 
 ---
 
-# Log Sanitizer
+## Explore DevCraftKit
 
-## Why it exists
+Try the tools directly in your browser — free, private, and no sign-up required.
 
-Developers regularly share logs when asking for help.
-
-Unfortunately, logs rarely contain only the error.
-
-They often include:
-
-- Customer email addresses
-- Internal IP addresses
-- API keys
-- JWT tokens
-- Passwords
-- Session cookies
-- Hostnames
-- Internal domains
-- Authentication headers
-- Connection strings
-- User IDs
-- Trace IDs
-- Credit card numbers
-- Phone numbers
-- Environment variables
-
-Once shared, those values may end up:
-
-- Inside AI conversations
-- GitHub Issues
-- Slack history
-- Discord messages
-- Public forums
-- Support tickets
-- Search indexes
-
-Removing them manually is slow and error-prone.
-
-Log Sanitizer automates the process.
-
----
-
-# What Log Sanitizer Detects
-
-Sensitive information including:
-
-- API Keys
-- JWT Tokens
-- Authorization Headers
-- Bearer Tokens
-- Passwords
-- Secrets
-- Cookies
-- Connection Strings
-- Database URLs
-- Environment Variables
-- Emails
-- Phone Numbers
-- Credit Cards
-- Identity Numbers
-- IPv4 Addresses
-- IPv6 Addresses
-- MAC Addresses
-- URLs
-- Hostnames
-- Domains
-- File Paths
-- Windows Paths
-- Linux Paths
-- User IDs
-- Customer IDs
-- Account IDs
-- Request IDs
-- Trace IDs
-- Session IDs
-- AWS Resource IDs
-- Buckets
-- Cloud Resources
-- Kafka Topics
-- Queues
-- User-Agent Strings
-
-…and many more.
-
----
-
-# Features
-
-✔ Browser-based
-
-✔ Instant processing
-
-✔ Local execution
-
-✔ No uploads
-
-✔ Copy sanitized output
-
-✔ Download TXT
-
-✔ Download JSON
-
-✔ Upload log files
-
-✔ Before/After comparison
-
-✔ Highlight changes
-
-✔ Detection statistics
-
-✔ Mapping table
-
-✔ Readable mode
-
-✔ Strict mode
-
-✔ Toggle detection categories
-
-✔ Custom replacement rules
-
-✔ Import custom rules
-
-✔ Export custom rules
-
-✔ Remember custom rules locally
-
-✔ Large log support
-
-✔ Mobile friendly
-
-✔ Free to use
-
----
-
-# Use Cases
-
-Log Sanitizer is useful when sharing logs with:
-
-- ChatGPT
-- Claude
-- Gemini
-- GitHub Copilot
-- GitHub Issues
-- GitLab Issues
-- Jira
-- Linear
-- Slack
-- Discord
-- Microsoft Teams
-- Reddit
-- Stack Overflow
-- Customer support
-- Consultants
-- Vendors
-- Colleagues
-
----
-
-# Why Local Processing Matters
-
-Many online tools require you to upload your logs.
-
-That means sensitive information reaches someone else's infrastructure before you even sanitize it.
-
-DevCraftKit takes a different approach.
-
-Whenever possible:
-
-- Processing happens locally.
-- Detection happens locally.
-- Replacement happens locally.
-- Downloads are generated locally.
-
-Your browser performs the work.
-
-Your data never has to leave the tab.
-
----
-
-# Roadmap
-
-DevCraftKit is continuously expanding.
-
-Current plan includes more than **30 browser-based developer utilities** across:
-
-- Security
-- DevOps
-- Networking
-- Cloud
-- JSON & Data
-- Text Processing
-- Encoding
-- Linux
-- System Administration
-
-Upcoming tools include:
-
-- Secret Scanner
-- JWT Decoder
-- JWT Generator
-- Password Generator
-- JSON Formatter
-- JSON Validator
-- Regex Tester
-- Base64 Encoder
-- Base64 Decoder
-- URL Encoder
-- URL Decoder
-- Hash Generator
-- UUID Generator
-- Unix Timestamp Converter
-- DNS Lookup
-- SSL Certificate Checker
-- HTTP Header Viewer
-- Text Diff
-- YAML Tools
-
-…and many more.
-
----
-
-# Why Developers Choose DevCraftKit
-
-Unlike many online utilities, DevCraftKit focuses on:
-
-- Privacy
-- Simplicity
-- Performance
-- Consistency
-- Reliability
-
-Every tool follows the same design philosophy so you spend less time learning interfaces and more time solving problems.
-
----
-
-# Feedback
-
-Have an idea for a new tool?
-
-Found a bug?
-
-Want to request a feature?
-
-Please open a GitHub Issue.
-
-Community feedback directly influences the roadmap.
-
----
-
-# Contributing Ideas
-
-Even if the website itself isn't open source, contributions are welcome in the form of:
-
-- Feature requests
-- Bug reports
-- Tool suggestions
-- UX improvements
-- Documentation improvements
-- Security recommendations
-
----
-
-# Useful Links
-
-🌐 Website
-
-https://www.devcraftkit.com
-
-🛡️ Log Sanitizer
-
-https://www.devcraftkit.com/tools/log-sanitizer
-
-📚 Browse All Tools
-
-https://www.devcraftkit.com/tools
-
-📂 Categories
-
-https://www.devcraftkit.com/categories
-
-ℹ️ About
-
-https://www.devcraftkit.com/about
-
-🔒 Privacy
-
-https://www.devcraftkit.com/privacy
-
----
+### **[👉 https://www.devcraftkit.com/](https://www.devcraftkit.com/)**
 
 <div align="center">
 
-## One toolkit.
-
-Instead of dozens of bookmarks.
-
-### Build faster. Debug safely. Share confidently.
-
-**https://www.devcraftkit.com**
-
-⭐ Star this repository if DevCraftKit helped you.
+⭐ If DevCraftKit is useful to you, consider starring this repository so more developers can find it.
 
 </div>
